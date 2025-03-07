@@ -3,6 +3,11 @@
   margin:0;
 }
 #container {
+  width: 100vw;
+  margin: 0 auto;
+  background-image: url('assets/img/wood-591631_640.jpg')
+}
+#container1 {
   display: flex;
   flex: wrap;
   width: 100vw;
@@ -23,7 +28,7 @@ body {
 }
 header {
     width: 100vw;
-    height: 50px;
+    height: 27px;
     background-color: rgba(141, 44, 44, 0.511);
     justify-content: space-evenly;
 }
@@ -33,9 +38,9 @@ header {
   float: left;
 }
 #content {
-  height: 500px;
   float: left;
   width: 82.5vw;
+  height: 700px;
   justify-content: space-evenly;
 }
 #footer {
@@ -43,14 +48,17 @@ header {
   clear: left;
   width: 97vw;
   padding-bottom: 10px;
+  display: inline-block;
 }
 .navItem {
-  border-left: 1px solid black;
-  border-right: 1px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
   display: inline-block;
-  width: 33%;
+  width: 20%;
   align-items: center;
   text-align: center;
+  font-size: 24px;
+  object-fit: fill;
 }
 #content div {
   width: 20%;
@@ -58,7 +66,7 @@ header {
   border: 1px solid darkgray;
   margin: 10px;
   display: inline-block;
-  object-fit: contain;
+  object-fit: fill;
 }
 #content div img {
   object-fit: fill;
@@ -71,6 +79,33 @@ header {
   width: 100%;
   text-align: center;
   object-fit: fill;
+}
+.box1 {
+  display: inline-block;  
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+}
+.box2 {
+  display: inline-block;  
+  width: 50%;
+  text-align: left;
+  padding-left: 10px;
+}
+.box2 input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.box1 p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#sidebar input {
+  display: inline-block;
+  margin-top: 20px;
+}
+.navItem img {
+  height: 24px;
 }
 
 
